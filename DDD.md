@@ -2,7 +2,8 @@
 
 W swoim modelu skupiłem się na czterech obszarach - uwierzytelnianiu, zarządzaniu kontem, przelewach i płatnościach kartą.
 W większości kontekstów występuje po jednym agregacie, jednak w zarządzaniu kontem są dwa. Poniżej wypisałem zdefiniowane
-obiekty modelu. Ich właściwości oraz metody wylistowałem na obrazku z modelem.
+obiekty modelu. Ich właściwości oraz metody wylistowałem na obrazku z modelem. W poszczególnych kontekstach encje mogą różnić się od siebie.
+Wynika to z faktu, że nie wszystkie dane konkretnej encji są wymagane w danym kontekście.
 
 ## Konteksty
 1. Uwierzytelnianie
